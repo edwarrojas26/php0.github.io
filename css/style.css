@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: solid red 1px; */
+}
+
+@media screen and (min-width: 1024px) {
+  /*! Inicio estilo moneda*/
+
+  .moneda {
+    position: absolute;
+    transform: translateY(400px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    width: 2%;
+    margin-top: -35%;
+    transform-style: preserve-3d;
+    margin-right: 5%;
+  }
+
+  .moneda-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sellofront {
+    transform: translateZ(1px);
+  }
+
+  .caraback {
+    transform: rotateY(180deg);
+  }
+
+  .sellofront img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .caraback img {
+    height: 150px;
+    width: 150px;
+  }
+
+  /*! Fin estilo moneda*/
+
+  /*Estilo formulario*/
+  body {
+    background-image: url("../img/magician-shuffling-the-cards-in-cool-way-under-the-spotlight.jpg");
+    background-size: 100%;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5%;
+    background-color: black;
+  }
+
+  .nav .titulo {
+    font-size: 3em;
+    color: white;
+  }
+
+  .formulario {
+    background: rgba(244, 248, 244, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    width: 80%;
+    background-repeat: no-repeat;
+    padding: 2%;
+    position: absolute;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+  }
+
+  .datos {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+  }
+
+  .Apuesta label {
+    font-size: 1.5em;
+  }
+
+  .Apuesta select,
+  input {
+    height: 20px;
+  }
+
+  .Apuesta .botones input {
+    background-color: green;
+    padding: 4px;
+    border-radius: 5px;
+    height: 26px;
+    margin-left: 5%;
+    border: none;
+    font-size: 1em;
+  }
+
+  .Apuesta .botones a {
+    margin-left: 40%;
+    border: none;
+  }
+
+  .Apuesta .Dinero {
+    margin-bottom: 6%;
+  }
+
+  .Apuesta .Dinero input {
+    margin-bottom: 6%;
+    height: 26px;
+  }
+  .Apuesta .opcion {
+    margin-bottom: 6%;
+  }
+
+  .Apuesta .opcion select {
+    margin-bottom: 6%;
+    height: 26px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /*! Inicio estilo moneda*/
+
+  .moneda {
+    position: absolute;
+    transform: translateY(400px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    width: 2%;
+    margin-top: -35%;
+    transform-style: preserve-3d;
+    margin-right: 5%;
+  }
+
+  .moneda-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sellofront {
+    transform: translateZ(1px);
+  }
+
+  .caraback {
+    transform: rotateY(180deg);
+  }
+
+  .sellofront img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .caraback img {
+    height: 150px;
+    width: 150px;
+  }
+
+  /*! Fin estilo moneda*/
+
+  /*Estilo formulario*/
+  body {
+    background-image: url("../img/magician-shuffling-the-cards-in-cool-way-under-the-spotlight.jpg");
+    background-size: 100%;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5%;
+    background-color: black;
+  }
+
+  .titulo {
+    font-size: 6em;
+    color: white;
+  }
+
+  .formulario {
+    background: rgba(244, 248, 244, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    width: 80%;
+    background-repeat: no-repeat;
+    padding: 2%;
+    position: absolute;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+  }
+
+  .datos {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 4em;
+  }
+
+  .Apuesta label {
+    font-size: 1.5em;
+  }
+
+  .Apuesta select,
+  input {
+    height: 20px;
+  }
+
+  .Apuesta .botones input {
+    background-color: green;
+    padding: 4px;
+    border-radius: 5px;
+    height: 26px;
+    margin-left: 5%;
+    border: none;
+    font-size: 1em;
+  }
+
+  .Apuesta .botones a {
+    margin-left: 40%;
+    border: none;
+  }
+
+  .Apuesta .Dinero {
+    margin-bottom: 6%;
+  }
+
+  .Apuesta .Dinero input {
+    margin-bottom: 6%;
+    height: 26px;
+  }
+  .Apuesta .opcion {
+    margin-bottom: 6%;
+  }
+
+  .Apuesta .opcion select {
+    margin-bottom: 6%;
+    height: 26px;
+  }
+}

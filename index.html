@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cara y sello</title>
+    <link rel="shortcut icon" href="img/Suerte.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <h1 class="titulo">Cara y sello</h1>
+    </nav>
+
+
+    <!-- FORMULARIO -->
+
+    <div class="formulario">
+
+        <div class="datos">
+            <div class="money">
+                <div class="dinero"><b>Dinero: 0</b></div>
+            </div>
+            <div class="cantidad">
+                <div class="cantidad_veces"><b>Veces jugadas:0</b></div>
+            </div>
+        </div>
+        
+
+        <div class="Apuesta">
+            <div class="Dinero">
+                <label for="">Dinero a apostar:</label>
+            <input type="text" name="monto" id="monto">
+            </div>
+            
+            
+
+            <div class="opcion">
+                <label for="">Apuesta: </label>
+                <select name="" class="seleccion">
+                    <option>Seleccionar...</option>
+                    <option value="1">Sello</option>
+                    <option value="2">Cara</option>
+                </select>
+
+            </div>
+            <div class="botones">
+                <input type="submit" value="Jugar" id="jugar">
+                <a href="index.html"><input class="finalizar" type="submit" value="Finalizar Juego"></a>
+            </div>
+            
+
+
+        </div>
+
+        <!-- FIN FORMULARIO -->
+
+        <!-- MONEDA -->
+        <div class="moneda">
+            <div class="moneda-face sellofront"><img src="img/Imagen1.png" alt=""></div>
+            <div class="moneda-face caraback"><img src="img/Imagen2.png" alt=""></div>
+        </div>
+
+        <!-- FIN DE MONEDA -->
+
+        <script src="js/juego.js"></script>
+</body>
+
+</html>
